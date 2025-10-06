@@ -19,7 +19,7 @@
 
 
 ```
-docker compose up -d zookeeper kafka-broker
+docker compose up -d mc zookeeper kafka-broker
 
 ```
 
@@ -32,3 +32,7 @@ kafka-topics --bootstrap-server localhost:9092 --list
 kafka-console-consumer --bootstrap-server localhost:9092 --topic sink-raw --from-beginning
 
 ```
+
+[Kafka]https://github.com/Labdata-FIA/Engenharia-Dados/tree/main/21.Ingestao-Dados-Kafka
+[Kafka-Connect]https://github.com/Labdata-FIA/Engenharia-Dados/tree/main/21.Ingestao-Dados-Kafka-Connect
+
