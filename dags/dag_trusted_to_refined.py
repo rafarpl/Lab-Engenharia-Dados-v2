@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, count, avg, length, desc, split
-from delta import configure_spark_with_delta_pip  # ⬅️ Delta Lake
+from delta import configure_spark_with_delta_pip  #Delta Lake
 
 # --------------------------------------------------------------------
 # CONFIGURAÇÕES GERAIS
@@ -14,8 +14,8 @@ MINIO_ACCESS_KEY = "cursolab"
 MINIO_SECRET_KEY = "cursolab"
 
 # Trusted/Silver e Refined/Gold em Delta Lake
-TRUSTED_PATH = "s3a://trusted/movies/"     # ⬅️ Delta
-REFINED_PATH = "s3a://refined/movies/"     # ⬅️ Delta (destino das views)
+TRUSTED_PATH = "s3a://trusted/movies/"     # Delta
+REFINED_PATH = "s3a://refined/movies/"     # Delta (destino das views)
 
 # --------------------------------------------------------------------
 # FUNÇÃO DE PROCESSAMENTO (DELTA IN/OUT)
@@ -43,7 +43,7 @@ def process_trusted_to_refined():
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
     print("Lendo dados da camada Trusted (Delta Lake)...")
-    # ⬇️ Leia a Trusted como Delta (NÃO parquet)
+    # Leia a Trusted como Delta (NÃO parquet)
     df = spark.read.format("delta").load(TRUSTED_PATH)
 
     # ----------------------------------------------------------------
@@ -113,7 +113,7 @@ def process_trusted_to_refined():
         .save(f"{REFINED_PATH}v5_longest_descriptions")
     )
 
-    print("✅ Todas as visões foram processadas e salvas em Delta na camada Refined (Gold).")
+    print("Todas as visões foram processadas e salvas em Delta na camada Refined (Gold).")
     spark.stop()
 
 # --------------------------------------------------------------------
@@ -146,7 +146,7 @@ with DAG(
 
     end = PythonOperator(
         task_id="end",
-        python_callable=lambda: print("🏁 Pipeline Trusted → Refined finalizado com sucesso"),
+        python_callable=lambda: print("Pipeline Trusted → Refined finalizado com sucesso"),
     )
 
     start >> process >> end

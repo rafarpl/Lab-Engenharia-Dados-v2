@@ -56,7 +56,6 @@ def push_data_to_silver_layer(file_path):
 
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
-    print("teste 1")
     # Lê o CSV com PySpark
     df = spark.read.option("header", True).csv(file_path)
 
@@ -72,11 +71,11 @@ def push_data_to_silver_layer(file_path):
     print("Dados limpos, salvando na camada Silver...")
 
    # ----------------------------------------------------------------
-    # 3️⃣ Faz o UPSERT (MERGE INTO) na tabela Delta Lake
+    # Faz o UPSERT (MERGE INTO) na tabela Delta Lake
     # ----------------------------------------------------------------
     try:
         delta_table = DeltaTable.forPath(spark, SILVER_PATH)
-        print("📂 Tabela Delta existente — aplicando MERGE (upsert)")
+        print("Tabela Delta existente — aplicando MERGE (upsert)")
 
         (
             delta_table.alias("t")
@@ -93,7 +92,7 @@ def push_data_to_silver_layer(file_path):
         print(f"Nenhuma tabela Delta existente. Criando nova. Detalhe: {e}")
         df_clean.write.format("delta").mode("overwrite").save(SILVER_PATH)
         
-    print(f"✅ Dados atualizados com sucesso na camada Silver Delta: {SILVER_PATH}")
+    print(f"Dados atualizados com sucesso na camada Silver Delta: {SILVER_PATH}")
     spark.stop()
     
 
@@ -120,7 +119,7 @@ def consume_data():
         # Caminho vindo do evento (com %3D e %2F)
         raw_key = event["Records"][0]["s3"]["object"]["key"]
 
-         # ✅ Decodifica o caminho para remover %3D e %2F
+         #Decodifica o caminho para remover %3D e %2F
         decoded_key = urllib.parse.unquote(raw_key)
         
           # Caminho do arquivo CSV que chegou na camada Bronze
