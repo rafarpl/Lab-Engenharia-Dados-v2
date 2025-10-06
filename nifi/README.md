@@ -21,6 +21,7 @@ docker compose up -d nifi minio
 ```
 
 > https://localhost:9443/nifi/#/login
+> http://localhost:9001/
 
 
 |Usuário|Senha|
@@ -105,30 +106,6 @@ Edita o GetFile, botão direito, Configure >> Properties
 
 ![Lab](/content/nifi-edit-getfile.png)
 
-
-## Fazendo a ingestão com MinIO, mas antes...
-
-
-### Configurando MinIO
-
-Acesso para o MinIO http://localhost:9001/login
-
-* Senha : admin
-* password: minioadmin
-
-
-### Configurando o MinIO
-
-> [!IMPORTANT]
-> Crie a camada Raw ou Bronze caso não tenha ainda
-
-
-![MinIO](../content/minio-04.png)
-![MinIO](../content/minio-05.png)
-![MinIO](../content/minio-06.png)
-
-
-![MinIO](../content/minio-07.png)
 
 ---
 
