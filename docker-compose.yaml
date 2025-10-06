@@ -188,7 +188,7 @@ services:
       sleep 3000 "
 
    redis:
-      image: redis:latest
+      image: redis:${REDIS_VERSION}
       expose:
         - 6379
       healthcheck:
