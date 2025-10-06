@@ -1,0 +1,6 @@
+kafka-python
+pandas
+apache-airflow
+boto3===1.35.20
+pyspark==3.5.1
+delta-spark==3.0.0
