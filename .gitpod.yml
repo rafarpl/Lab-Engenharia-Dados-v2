@@ -1,0 +1,33 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: |
+      # Install Docker and docker-compose (may already be present in the image)
+      sudo apt-get update
+      sudo apt-get install -y docker.io docker-compose
+
+      # Start Docker daemon in background (DinD style). Keep logs in case of trouble.
+      sudo dockerd > /tmp/dockerd.log 2>&1 &
+      sleep 5
+
+      # Start the stack defined by docker-compose
+      docker compose up -d
+
+      # Run smoke test script which waits for services and triggers the DAG
+      bash .gitpod/start_smoke_test.sh
+
+    command: sleep infinity
+
+ports:
+  - port: 8080
+    onOpen: open-preview
+  - port: 9000
+    onOpen: open-browser
+  - port: 9001
+    onOpen: open-browser
+  - port: 8889
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
