@@ -8,32 +8,25 @@
 * Docker
 * Docker-Compose
 
+Referência / upstream
+- Este conteúdo está também disponível no repositório público de referência: https://github.com/rafarpl/lab-eng-dados (use este link para sincronizar exemplos, imagens e conteúdos relacionados ao laboratório).
 
-```bash
-docker compose up -d airflow-webserver  airflow-scheduler airflow-triggerer airflow-init airflow-cli
-```
 
-> http://localhost:8080/
+![MinIO](/content/arquitetura.png)
 
-* Username: airflow
-* Password: airflow
 
-## Orquestrador: Bronze → Silver → Refined
 
-Um DAG chamado `orchestrator_bronze_silver_refined` foi adicionado em `airflow/dags/`.
+[Nifi](nifi/README.md)
 
-O que ele faz:
-- Faz upload do arquivo local `content/files/netflix_titles.csv` para o bucket `bronze` no MinIO.
-- Executa uma tarefa que lê o CSV da camada Bronze e popula a tabela Delta na camada Trusted/Silver.
-- Executa a transformação que gera as visões Delta na camada Refined.
+[AirFlow](airflow/README.md)
 
-Como testar (smoke test):
-1. Levante o ambiente com `docker compose up -d` (veja `../docker-compose.yaml`).
-2. Acesse a UI do Airflow em `http://localhost:8080` e confirme que o DAG `orchestrator_bronze_silver_refined` aparece.
-3. Trigger manualmente o DAG (ou usar `airflow dags trigger orchestrator_bronze_silver_refined` via `airflow-cli` service).
-4. Verifique os logs das tasks: `upload_to_bronze`, `run_silver`, `run_refined`.
 
-Notas:
-- O Spark e o Delta são usados dentro das tasks; certifique-se de que o serviço `spark` e o container `minio` estejam up caso execute as tasks que usam Spark.
-- Os pacotes Python (boto3, pyspark, delta-spark) devem estar disponíveis no ambiente onde as tasks são executadas. Em setups com o `docker-compose` do repositório, você pode adicionar essas dependências via `_PIP_ADDITIONAL_REQUIREMENTS` nas variáveis de ambiente ou estendendo a imagem do Airflow.
+[kafka](kafka/README.md)
+
+[Kafka-SmallData]https://github.com/Labdata-FIA/Engenharia-Dados/tree/main/27.SmallData
+
+
+[ClickHouse]https://github.com/Labdata-FIA/Engenharia-Dados/tree/main/25.Olap
+
+[Fast-Api]https://github.com/Labdata-FIA/Engenharia-Dados/tree/main/28.Data-Delivery-FastApi/app-crud-db
 
