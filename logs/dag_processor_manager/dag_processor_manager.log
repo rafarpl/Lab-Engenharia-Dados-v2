@@ -1402,3 +1402,121 @@ File Path                                         PID  Runtime      # DAGs    # 
 /opt/airflow/dags/dag_orchestrator_pipeline.py   5476  0.02s             1           0  0.25s           2025-10-09T00:09:55
 /opt/airflow/dags/dag_trusted_to_refined.py      5479  0.01s             1           0  0.25s           2025-10-09T00:09:55
 ================================================================================
+[2025-10-09T00:10:18.018+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:10:18.019+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:10:31.439+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.85s           2025-10-09T00:10:30
+/opt/airflow/dags/dag_orchestrator_pipeline.py                           1           0  0.27s           2025-10-09T00:10:27
+/opt/airflow/dags/dag_trusted_to_refined.py                              1           0  0.25s           2025-10-09T00:10:27
+================================================================================
+[2025-10-09T00:10:38.106+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:10:38.108+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:10:58.202+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:10:58.203+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:11:01.480+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.57s           2025-10-09T00:11:01
+/opt/airflow/dags/dag_orchestrator_pipeline.py                           1           0  0.26s           2025-10-09T00:10:59
+/opt/airflow/dags/dag_trusted_to_refined.py                              1           0  0.20s           2025-10-09T00:10:59
+================================================================================
+[2025-10-09T00:11:18.552+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:11:18.553+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:11:31.545+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.68s           2025-10-09T00:11:26
+/opt/airflow/dags/dag_orchestrator_pipeline.py   5749  0.19s             1           0  0.25s           2025-10-09T00:11:26
+/opt/airflow/dags/dag_trusted_to_refined.py      5752  0.18s             1           0  0.22s           2025-10-09T00:11:26
+================================================================================
+[2025-10-09T00:11:38.759+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:11:38.761+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:11:59.216+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:11:59.217+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:12:02.243+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py        5845  0.01s             1           0  0.54s           2025-10-09T00:11:56
+/opt/airflow/dags/dag_orchestrator_pipeline.py                           1           0  0.24s           2025-10-09T00:11:58
+/opt/airflow/dags/dag_trusted_to_refined.py                              1           0  0.21s           2025-10-09T00:11:58
+================================================================================
+[2025-10-09T00:12:19.323+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:12:19.325+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:12:33.108+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.59s           2025-10-09T00:12:28
+/opt/airflow/dags/dag_orchestrator_pipeline.py                           1           0  0.25s           2025-10-09T00:12:31
+/opt/airflow/dags/dag_trusted_to_refined.py                              1           0  0.23s           2025-10-09T00:12:31
+================================================================================
+[2025-10-09T00:12:39.361+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:12:39.363+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:12:59.409+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:12:59.410+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:13:03.134+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.57s           2025-10-09T00:12:59
+/opt/airflow/dags/dag_orchestrator_pipeline.py                           1           0  0.25s           2025-10-09T00:13:03
+/opt/airflow/dags/dag_trusted_to_refined.py                              1           0  0.21s           2025-10-09T00:13:03
+================================================================================
+[2025-10-09T00:13:20.202+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:13:20.203+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:13:33.364+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.55s           2025-10-09T00:13:30
+/opt/airflow/dags/dag_orchestrator_pipeline.py                           1           0  0.29s           2025-10-09T00:13:30
+/opt/airflow/dags/dag_trusted_to_refined.py                              1           0  0.21s           2025-10-09T00:13:30
+================================================================================
+[2025-10-09T00:13:40.640+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:13:40.641+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:14:00.840+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:14:00.841+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:14:03.560+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.69s           2025-10-09T00:14:02
+/opt/airflow/dags/dag_orchestrator_pipeline.py                           1           0  0.26s           2025-10-09T00:14:02
+/opt/airflow/dags/dag_trusted_to_refined.py                              1           0  0.21s           2025-10-09T00:14:02
+================================================================================
+[2025-10-09T00:14:21.163+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:14:21.166+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2025-10-09T00:14:33.736+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_bronze_to_silver.py                                1           0  0.56s           2025-10-09T00:14:33
+/opt/airflow/dags/dag_orchestrator_pipeline.py   6308  0.02s             1           0  0.25s           2025-10-09T00:14:28
+/opt/airflow/dags/dag_trusted_to_refined.py      6311  0.01s             1           0  0.22s           2025-10-09T00:14:28
+================================================================================
+[2025-10-09T00:14:41.634+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-09T00:14:41.635+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
