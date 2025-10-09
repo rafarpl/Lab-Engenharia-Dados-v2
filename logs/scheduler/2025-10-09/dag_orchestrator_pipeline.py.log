@@ -642,3 +642,136 @@
 [2025-10-09T00:08:19.504+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:19.504+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-10-09T00:08:19.529+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:19.529+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
 [2025-10-09T00:08:19.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.302 seconds
+[2025-10-09T00:08:24.643+0000] {processor.py:161} INFO - Started process (PID=5182) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:24.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:08:24.647+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:24.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:24.847+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:24.893+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:24.893+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:24.910+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:24.910+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:08:24.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.295 seconds
+[2025-10-09T00:08:30.037+0000] {processor.py:161} INFO - Started process (PID=5198) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:30.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:08:30.042+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:30.042+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:30.249+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:30.270+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:30.270+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:30.278+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:30.278+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:08:30.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.267 seconds
+[2025-10-09T00:08:35.336+0000] {processor.py:161} INFO - Started process (PID=5214) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:35.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:08:35.338+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:35.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:35.525+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:35.549+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:35.548+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:35.557+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:35.557+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:08:35.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.238 seconds
+[2025-10-09T00:08:40.614+0000] {processor.py:161} INFO - Started process (PID=5230) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:40.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:08:40.616+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:40.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:40.777+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:40.803+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:40.803+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:40.815+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:40.814+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:08:40.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.220 seconds
+[2025-10-09T00:08:45.880+0000] {processor.py:161} INFO - Started process (PID=5252) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:45.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:08:45.882+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:45.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:46.062+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:46.104+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:46.103+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:46.117+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:46.117+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:08:46.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.259 seconds
+[2025-10-09T00:08:51.209+0000] {processor.py:161} INFO - Started process (PID=5268) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:51.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:08:51.211+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:51.211+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:51.423+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:51.463+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:51.463+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:51.474+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:51.474+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:08:51.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.288 seconds
+[2025-10-09T00:08:56.757+0000] {processor.py:161} INFO - Started process (PID=5287) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:56.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:08:56.760+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:56.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:56.918+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:08:56.946+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:56.946+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:56.960+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:56.960+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:08:56.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.228 seconds
+[2025-10-09T00:09:02.043+0000] {processor.py:161} INFO - Started process (PID=5294) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:02.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:02.045+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:02.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:02.208+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:02.234+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:02.234+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:02.250+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:02.250+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:02.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.232 seconds
+[2025-10-09T00:09:07.330+0000] {processor.py:161} INFO - Started process (PID=5310) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:07.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:07.336+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:07.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:07.518+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:07.544+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:07.544+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:07.557+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:07.557+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:07.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.251 seconds
+[2025-10-09T00:09:12.619+0000] {processor.py:161} INFO - Started process (PID=5332) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:12.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:12.621+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:12.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:12.778+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:12.803+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:12.803+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:12.814+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:12.814+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:12.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.215 seconds
+[2025-10-09T00:09:17.890+0000] {processor.py:161} INFO - Started process (PID=5348) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:17.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:17.893+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:17.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:18.054+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:18.081+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:18.081+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:18.094+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:18.093+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:18.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.226 seconds
+[2025-10-09T00:09:23.163+0000] {processor.py:161} INFO - Started process (PID=5364) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:23.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:23.165+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:23.165+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:23.323+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:23.349+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:23.349+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:23.362+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:23.361+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:23.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.218 seconds
+[2025-10-09T00:09:28.425+0000] {processor.py:161} INFO - Started process (PID=5380) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:28.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:28.428+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:28.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:28.584+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:28.612+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:28.612+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:28.623+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:28.622+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:28.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.215 seconds
+[2025-10-09T00:09:33.880+0000] {processor.py:161} INFO - Started process (PID=5399) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:33.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:33.883+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:33.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:34.062+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:34.089+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:34.089+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:34.102+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:34.102+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:34.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.246 seconds
+[2025-10-09T00:09:39.182+0000] {processor.py:161} INFO - Started process (PID=5406) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:39.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:39.184+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:39.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:39.343+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:39.370+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:39.370+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:39.381+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:39.381+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:39.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.221 seconds
+[2025-10-09T00:09:44.466+0000] {processor.py:161} INFO - Started process (PID=5428) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:44.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:44.471+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:44.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:44.705+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:44.765+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:44.765+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:44.779+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:44.779+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:44.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.354 seconds
+[2025-10-09T00:09:49.979+0000] {processor.py:161} INFO - Started process (PID=5444) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:49.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:49.983+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:49.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:50.210+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:50.236+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:50.236+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:50.248+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:50.248+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:50.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.299 seconds
+[2025-10-09T00:09:55.320+0000] {processor.py:161} INFO - Started process (PID=5460) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:55.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:09:55.323+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:55.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:55.486+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:09:55.512+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:55.511+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:55.525+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:55.525+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:09:55.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.225 seconds
+[2025-10-09T00:10:00.633+0000] {processor.py:161} INFO - Started process (PID=5476) to work on /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:10:00.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_orchestrator_pipeline.py for tasks to queue
+[2025-10-09T00:10:00.635+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:10:00.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:10:00.794+0000] {processor.py:840} INFO - DAG(s) 'orchestrator_bronze_silver_refined' retrieved from /opt/airflow/dags/dag_orchestrator_pipeline.py
+[2025-10-09T00:10:00.820+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:10:00.820+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:10:00.833+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:10:00.833+0000] {dag.py:3947} INFO - Setting next_dagrun for orchestrator_bronze_silver_refined to None, run_after=None
+[2025-10-09T00:10:00.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_orchestrator_pipeline.py took 0.220 seconds

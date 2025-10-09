@@ -642,3 +642,136 @@
 [2025-10-09T00:08:19.179+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:19.178+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-10-09T00:08:19.203+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:19.202+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
 [2025-10-09T00:08:19.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.174 seconds
+[2025-10-09T00:08:24.758+0000] {processor.py:161} INFO - Started process (PID=5185) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:24.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:08:24.765+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:24.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:24.897+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:24.925+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:24.924+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:24.946+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:24.946+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:08:24.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.220 seconds
+[2025-10-09T00:08:30.068+0000] {processor.py:161} INFO - Started process (PID=5201) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:30.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:08:30.071+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:30.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:30.163+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:30.193+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:30.193+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:30.218+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:30.218+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:08:30.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.174 seconds
+[2025-10-09T00:08:35.351+0000] {processor.py:161} INFO - Started process (PID=5217) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:35.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:08:35.354+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:35.354+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:35.449+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:35.476+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:35.476+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:35.501+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:35.501+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:08:35.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.177 seconds
+[2025-10-09T00:08:40.628+0000] {processor.py:161} INFO - Started process (PID=5233) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:40.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:08:40.631+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:40.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:40.723+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:40.752+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:40.752+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:40.778+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:40.778+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:08:40.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.173 seconds
+[2025-10-09T00:08:45.896+0000] {processor.py:161} INFO - Started process (PID=5255) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:45.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:08:45.899+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:45.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:46.057+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:46.106+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:46.106+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:46.130+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:46.130+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:08:46.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.256 seconds
+[2025-10-09T00:08:51.227+0000] {processor.py:161} INFO - Started process (PID=5271) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:51.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:08:51.230+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:51.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:51.347+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:51.375+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:51.375+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:51.401+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:51.401+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:08:51.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.205 seconds
+[2025-10-09T00:08:56.539+0000] {processor.py:161} INFO - Started process (PID=5281) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:56.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:08:56.541+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:56.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:56.631+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:08:56.659+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:56.659+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:08:56.683+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:08:56.683+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:08:56.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.174 seconds
+[2025-10-09T00:09:02.059+0000] {processor.py:161} INFO - Started process (PID=5297) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:02.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:02.061+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:02.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:02.156+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:02.184+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:02.184+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:02.208+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:02.208+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:02.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.173 seconds
+[2025-10-09T00:09:07.359+0000] {processor.py:161} INFO - Started process (PID=5313) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:07.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:07.367+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:07.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:07.483+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:07.511+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:07.510+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:07.535+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:07.534+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:07.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.199 seconds
+[2025-10-09T00:09:12.634+0000] {processor.py:161} INFO - Started process (PID=5335) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:12.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:12.637+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:12.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:12.728+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:12.755+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:12.755+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:12.780+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:12.780+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:12.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.170 seconds
+[2025-10-09T00:09:17.916+0000] {processor.py:161} INFO - Started process (PID=5351) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:17.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:17.918+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:17.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:18.026+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:18.053+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:18.053+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:18.079+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:18.078+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:18.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.186 seconds
+[2025-10-09T00:09:23.177+0000] {processor.py:161} INFO - Started process (PID=5367) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:23.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:23.179+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:23.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:23.268+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:23.297+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:23.296+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:23.328+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:23.327+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:23.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.174 seconds
+[2025-10-09T00:09:28.440+0000] {processor.py:161} INFO - Started process (PID=5383) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:28.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:28.442+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:28.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:28.534+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:28.562+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:28.562+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:28.586+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:28.586+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:28.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.170 seconds
+[2025-10-09T00:09:33.679+0000] {processor.py:161} INFO - Started process (PID=5393) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:33.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:33.682+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:33.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:33.772+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:33.799+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:33.799+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:33.823+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:33.823+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:33.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.167 seconds
+[2025-10-09T00:09:39.198+0000] {processor.py:161} INFO - Started process (PID=5409) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:39.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:39.200+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:39.200+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:39.292+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:39.319+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:39.319+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:39.342+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:39.342+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:39.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.169 seconds
+[2025-10-09T00:09:44.486+0000] {processor.py:161} INFO - Started process (PID=5431) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:44.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:44.488+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:44.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:44.731+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:44.822+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:44.822+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:44.860+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:44.860+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:44.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.419 seconds
+[2025-10-09T00:09:50.050+0000] {processor.py:161} INFO - Started process (PID=5447) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:50.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:50.056+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:50.053+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:50.189+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:50.215+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:50.215+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:50.240+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:50.240+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:50.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.269 seconds
+[2025-10-09T00:09:55.337+0000] {processor.py:161} INFO - Started process (PID=5463) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:55.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:09:55.339+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:55.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:55.481+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:09:55.508+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:55.508+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:09:55.534+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:09:55.534+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-08 23:50:00+00:00, run_after=2025-10-09 00:00:00+00:00
+[2025-10-09T00:09:55.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.221 seconds
+[2025-10-09T00:10:00.650+0000] {processor.py:161} INFO - Started process (PID=5479) to work on /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:10:00.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_trusted_to_refined.py for tasks to queue
+[2025-10-09T00:10:00.652+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:10:00.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:10:00.745+0000] {processor.py:840} INFO - DAG(s) 'trusted_to_refined_pyspark_delta' retrieved from /opt/airflow/dags/dag_trusted_to_refined.py
+[2025-10-09T00:10:00.775+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:10:00.775+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-09T00:10:00.799+0000] {logging_mixin.py:188} INFO - [2025-10-09T00:10:00.799+0000] {dag.py:3947} INFO - Setting next_dagrun for trusted_to_refined_pyspark_delta to 2025-10-09 00:00:00+00:00, run_after=2025-10-09 00:10:00+00:00
+[2025-10-09T00:10:00.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_trusted_to_refined.py took 0.173 seconds
