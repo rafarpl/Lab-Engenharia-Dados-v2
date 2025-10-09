@@ -18,10 +18,10 @@ except Exception:
 
 from airflow import AirflowException
 
-from ..utils.pipeline_utils import upload_file_to_minio, push_data_to_silver_layer, process_trusted_to_refined
+from utils.pipeline_utils import upload_file_to_minio, push_data_to_silver_layer, process_trusted_to_refined
 
 # Path to local sample CSV in this repo
-LOCAL_CSV = os.path.join(os.path.dirname(__file__), '..', '..', 'content', 'files', 'netflix_titles.csv')
+LOCAL_CSV = os.path.join(os.path.dirname(__file__), '..', 'content', 'files', 'netflix_titles.csv')
 
 default_args = {
     'owner': 'Fia',

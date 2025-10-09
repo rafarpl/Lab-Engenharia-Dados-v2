@@ -9,8 +9,8 @@ from delta import configure_spark_with_delta_pip
 
 # MinIO / S3 configuration (kept same as existing DAGs)
 MINIO_ENDPOINT = "http://minio:9000"
-MINIO_ACCESS_KEY = "cursolab"
-MINIO_SECRET_KEY = "cursolab"
+MINIO_ACCESS_KEY = "admin"
+MINIO_SECRET_KEY = "minioadmin"
 
 
 def upload_file_to_minio(local_path: str, bucket: str, key: str):
